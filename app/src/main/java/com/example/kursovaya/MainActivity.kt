@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun reg(view: View) {
-        val intent = Intent(this,RegActivity::class.java)
+        val intent = Intent(this,AuthActivity::class.java)
         startActivity(intent)
     }
 }
